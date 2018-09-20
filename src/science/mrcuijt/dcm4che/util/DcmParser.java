@@ -34,7 +34,7 @@ import org.dcm4che2.util.TagUtils;
  */
 public class DcmParser implements Serializable {
 	
-	private static String filePath = "D:/工作内容/测试DICOM文件/1.2.168.1101.441.100002063.201608261_0001_000001_14721744400012.dcm";
+	private static String filePath = "D:/1.2.168.1101.441.100002063.201608261_0001_000001_14721744400012.dcm";
 
 	private static String encoding = "GB18030";
 	
@@ -52,8 +52,6 @@ public class DcmParser implements Serializable {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		filePath = "C:/Users/Administrator/Desktop/客户端软件测试/0102010204180010120171005095828907.dcm";
-//		filePath = "D:/workspace/dcm4che2/doc/1.2.840.887072.1.9.1.1.20161212091739.1759.1721639_53839_078492_148196799801d4_ISO_IR 192.dcm";
 		filePath = "D:/workspace/dcm4che2/doc/DICOMDIR/MR/1.3.46.670589.11.30293.5.20.1.1.9456.2017070110290515000_muti_frame_MR.dcm";
 		// filePath = "D:/workspace/dcm4che2/doc/evidence.dcm";
 		isWrite = true;
