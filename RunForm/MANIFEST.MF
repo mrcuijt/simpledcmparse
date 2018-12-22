@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Rsrc-Class-Path: ./ dcm4che-iod-2.0.29.jar log4j-1.2.16.jar pixelmed_u
+ cum.jar pixelmed.jar antlr-2.7.6.jar slf4j-log4j12-1.6.1.jar commons-
+ io-2.4.jar slf4j-api-1.6.1.jar dcm4che-core-2.0.29.jar
+Class-Path: .
+Rsrc-Main-Class: science.mrcuijt.dicom.form.MainForm
+Main-Class: org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader
+
